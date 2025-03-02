@@ -1,9 +1,8 @@
-// Typography styles
 .heading {
-  font-size: 40px; // Using your heading font size directly
-  color: #111111; // Primary color
+  font-size: 40px; 
+  color: #111111; 
   font-weight: 700;
-  line-height: 55px; // Line height for heading
+  line-height: 55px; 
 
   &-small {
     max-width: 495px;
@@ -11,7 +10,7 @@
 }
 
 .blue {
-  color: #4A4FF2; // Highlight color
+  color: #4A4FF2; 
 }
 
 .quote {
@@ -23,12 +22,12 @@
 
   &__quote {
     opacity: 0.6;
-    font-size: 18px; // Font size for body text
+    font-size: 18px; 
     font-style: italic;
   }
 }
 
-// Main section styles
+
 .main__heading {
   margin-top: 3%;
   margin-bottom: 5%;
@@ -65,9 +64,9 @@
   }
 }
 
-// Awards section styles
+
 .awards {
-  border-top: 2px solid #D8D8D8; // Border color
+  border-top: 2px solid #D8D8D8; 
   border-bottom: 2px solid #D8D8D8;
   padding-top: 5%;
   padding-bottom: 5%;
