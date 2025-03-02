@@ -1,5 +1,30 @@
-.footer {
+.menu {
+    min-height: 23px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    &__li {
+      display: inline;
+      text-decoration: none;
+  
+      li:first-of-type {
+        margin-right: 29px;
+        
+      }
+    }
+  }
+  
+  .footer {
     min-height: 184px;
     display: flex;
     align-items: center;
+  
+    .social {
+      max-width: 95px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
   }
+  

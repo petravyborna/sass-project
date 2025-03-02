@@ -2,12 +2,20 @@
     min-height: 180px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
   
-  .social {
-    max-width: 95px;
+  .menu {
+    min-height: 23px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+  
+    &__li {
+      display: inline;
+  
+      &:first-of-type {
+        margin-right: 29px;
+      }
+    }
   }
+  
